@@ -76,7 +76,7 @@ public class FilterHandler<T> {
                                             .getFilter()
                                             .toLowerCase())) {
                                 filteredCellList.add(itemsList);
-                                filteredRowList.add(originalRowData.get(filteredCellList.indexOf(itemsList)));
+                                filteredRowList.add(originalRowData.get(originalCellData.indexOf(itemsList)));
                                 break;
                             }
                         }
